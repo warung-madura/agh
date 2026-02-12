@@ -1,6 +1,6 @@
 # Agent Panel Releases
 
-Latest: [v0.1.0](https://github.com/warung-madura/agh/releases/tag/v0.1.0)
+Latest: [v0.2.0](https://github.com/warung-madura/agh/releases/tag/v0.2.0)
 
 ## Quick Install
 
