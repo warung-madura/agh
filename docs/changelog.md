@@ -16,6 +16,7 @@ Released on 2026-02-12
 
 ### Bug Fixes
 
+- fix: correct useAgents call signature for refetchInterval
 - fix: show dotfiles by default and disable quick actions for offline agents
 - fix: improve onboarding page with proper install commands and error handling
 - feat: add agent upgrade system with GitHub release integration
@@ -24,6 +25,7 @@ Released on 2026-02-12
 
 <details><summary>View all</summary>
 
+- fix: correct useAgents call signature for refetchInterval (0ed30b5)
 - feat: add offline handling for terminal and file manager sessions (333c18d)
 - fix: show dotfiles by default and disable quick actions for offline agents (8988b6f)
 - fix: improve onboarding page with proper install commands and error handling (c1e35d1)
