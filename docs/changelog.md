@@ -3,27 +3,33 @@ layout: default
 title: Changelog
 ---
 
-## Agent Panel v0.3.0
+## Agent Panel v0.4.0
 
 Released on 2026-02-12
 
 ### New Features
 
-- feat: add daemon mode, CLI improvements, installers, and documentation
+- feat: add offline handling for terminal and file manager sessions
+- feat: add agent upgrade system with GitHub release integration
+- feat: add agents page filter, search, sort, pagination, rename, delete, and grid/table view
+- feat: add new file, upload, and large file handling to file explorer
 
 ### Bug Fixes
 
-- fix: add TLS 1.2 fix to PowerShell one-liners and upload all install scripts
-- fix: terminal disconnect bugs, tool output overflow, and CI defaults
+- fix: show dotfiles by default and disable quick actions for offline agents
+- fix: improve onboarding page with proper install commands and error handling
+- feat: add agent upgrade system with GitHub release integration
 
 ### All Changes
 
 <details><summary>View all</summary>
 
-- fix: add TLS 1.2 fix to PowerShell one-liners and upload all install scripts (dedad3c)
-- Merge pull request #7 from agent-panel/dev/initial-scaffold (6e034a9)
-- feat: add daemon mode, CLI improvements, installers, and documentation (ed05b59)
-- fix: terminal disconnect bugs, tool output overflow, and CI defaults (85323f1)
+- feat: add offline handling for terminal and file manager sessions (333c18d)
+- fix: show dotfiles by default and disable quick actions for offline agents (8988b6f)
+- fix: improve onboarding page with proper install commands and error handling (c1e35d1)
+- feat: add agent upgrade system with GitHub release integration (fb07fce)
+- feat: add agents page filter, search, sort, pagination, rename, delete, and grid/table view (b4550c5)
+- feat: add new file, upload, and large file handling to file explorer (c24e462)
 </details>
 
 ## Quick Install
