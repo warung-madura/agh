@@ -28,17 +28,21 @@ Scripts automatically detect OS, architecture, and privileges. Checksum is verif
 
 ## One-line Install (Windows)
 
+> **Note:** PowerShell 5.x defaults to TLS 1.0 which GitHub rejects. The commands below include the TLS 1.2 fix. PowerShell 7+ does not need it.
+
 ```powershell
 # AgentCtl CLI
-irm https://github.com/warung-madura/agh/releases/latest/download/install-ctl.ps1 | iex
+[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12; irm https://github.com/warung-madura/agh/releases/latest/download/install-ctl.ps1 | iex
 
 # Agent daemon
-irm https://github.com/warung-madura/agh/releases/latest/download/install.ps1 | iex
+[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12; irm https://github.com/warung-madura/agh/releases/latest/download/install.ps1 | iex
 ```
 
 Or download and run the scripts manually:
 
 ```powershell
+[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
+
 # AgentCtl
 Invoke-WebRequest -Uri "https://github.com/warung-madura/agh/releases/latest/download/install-ctl.ps1" -OutFile install-ctl.ps1
 .\install-ctl.ps1
@@ -181,12 +185,13 @@ agentctl version
 **Option A — Installer script (recommended):**
 
 ```powershell
-irm https://github.com/warung-madura/agh/releases/latest/download/install-ctl.ps1 | iex
+[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12; irm https://github.com/warung-madura/agh/releases/latest/download/install-ctl.ps1 | iex
 ```
 
 Or download the script first:
 
 ```powershell
+[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
 Invoke-WebRequest -Uri "https://github.com/warung-madura/agh/releases/latest/download/install-ctl.ps1" -OutFile install-ctl.ps1
 .\install-ctl.ps1
 ```
@@ -196,6 +201,8 @@ The script auto-detects your architecture, downloads the correct binary, verifie
 **Option B — Manual PowerShell:**
 
 ```powershell
+[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
+
 # Download
 Invoke-WebRequest -Uri "https://github.com/warung-madura/agh/releases/latest/download/agentctl-windows-amd64.exe" -OutFile "$env:USERPROFILE\agentctl.exe"
 
@@ -223,6 +230,8 @@ agentctl version
 **Option D — Place in a dedicated folder:**
 
 ```powershell
+[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
+
 # Create folder
 $dir = "$env:LOCALAPPDATA\AgentPanel"
 New-Item -ItemType Directory -Force -Path $dir

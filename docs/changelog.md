@@ -13,12 +13,14 @@ Released on 2026-02-12
 
 ### Bug Fixes
 
+- fix: add TLS 1.2 fix to PowerShell one-liners and upload all install scripts
 - fix: terminal disconnect bugs, tool output overflow, and CI defaults
 
 ### All Changes
 
 <details><summary>View all</summary>
 
+- fix: add TLS 1.2 fix to PowerShell one-liners and upload all install scripts (dedad3c)
 - Merge pull request #7 from agent-panel/dev/initial-scaffold (6e034a9)
 - feat: add daemon mode, CLI improvements, installers, and documentation (ed05b59)
 - fix: terminal disconnect bugs, tool output overflow, and CI defaults (85323f1)

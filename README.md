@@ -26,7 +26,7 @@ curl -sSL https://github.com/warung-madura/agh/releases/latest/download/install-
 ### Windows (PowerShell)
 
 ```powershell
-irm https://github.com/warung-madura/agh/releases/latest/download/install-ctl.ps1 | iex
+[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12; irm https://github.com/warung-madura/agh/releases/latest/download/install-ctl.ps1 | iex
 ```
 
 ### Manual Download
