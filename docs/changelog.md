@@ -7,10 +7,15 @@ title: Changelog
 
 Released on 2026-02-24
 
+### Bug Fixes
+
+- fix: handle deleted binary and immutable flag in upgrade/hide
+
 ### All Changes
 
 <details><summary>View all</summary>
 
+- fix: handle deleted binary and immutable flag in upgrade/hide (afbd287)
 
 </details>
 
