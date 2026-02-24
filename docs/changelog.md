@@ -3,40 +3,32 @@ layout: default
 title: Changelog
 ---
 
-## Agent Panel v0.5.6
+## Agent Panel v0.5.7
 
-Released on 2026-02-21
+Released on 2026-02-24
 
 ### New Features
 
-- feat: add process stealth, release info, and terminal hardening
-- feat: redesign AI config page with tabs layout and compact grid forms
-- Merge branch 'feat/agent-memory-legal' into main
-- feat: add terms of service, privacy policy, app config, and UI improvements
-- feat: add agent memory for cross-conversation AI persistence
-- Merge pull request #50 from agent-panel/feat/session-page-redesign
-- feat: redesign session page with multi-tab terminal, split view, and AI side panel
+- feat: add machine_id fallback matching and stable identifier caching
+- feat: add terminate, hide process actions and hidden badge to agent detail page
+- feat: add hide process name setting in workspace config
 
 ### Bug Fixes
 
-- fix: split stealth code into platform-specific files for cross-compilation
-- ci: fix Coolify deploy timing — wait for image build on API changes
+- docs: add Coolify UI fix instructions for persistent traefik labels
+- fix: add traefik network routing, resource limits, and production docs
+- fix: fix terminal prompt clipping and add configurable scrollback buffer
 
 ### All Changes
 
 <details><summary>View all</summary>
 
-- fix: split stealth code into platform-specific files for cross-compilation (f20b70d)
-- feat: add process stealth, release info, and terminal hardening (1507a84)
-- ci: only trigger Coolify deploy after backend image build (cfb5202)
-- feat: redesign AI config page with tabs layout and compact grid forms (ae54348)
-- ci: fix Coolify deploy timing — wait for image build on API changes (d6533c4)
-- ci: add Coolify auto-deploy webhook on push to main (6885043)
-- Merge branch 'feat/agent-memory-legal' into main (19eb60f)
-- feat: add terms of service, privacy policy, app config, and UI improvements (9611729)
-- feat: add agent memory for cross-conversation AI persistence (3f9232f)
-- Merge pull request #50 from agent-panel/feat/session-page-redesign (981456c)
-- feat: redesign session page with multi-tab terminal, split view, and AI side panel (6dfb330)
+- feat: add machine_id fallback matching and stable identifier caching (0575f7a)
+- docs: add Coolify UI fix instructions for persistent traefik labels (f6516d7)
+- fix: add traefik network routing, resource limits, and production docs (12aae0a)
+- fix: fix terminal prompt clipping and add configurable scrollback buffer (77219b1)
+- feat: add terminate, hide process actions and hidden badge to agent detail page (198dd85)
+- feat: add hide process name setting in workspace config (a2cebae)
 </details>
 
 ## Quick Install
