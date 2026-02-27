@@ -3,19 +3,27 @@ layout: default
 title: Changelog
 ---
 
-## Agent Panel v0.5.8
+## Agent Panel v0.5.9
 
-Released on 2026-02-24
+Released on 2026-02-27
+
+### New Features
+
+- feat: add TCP tunnel via WebSocket (Phase 2) with CLI local proxy
+- feat: add HTTP reverse proxy tunnel with host_header support
 
 ### Bug Fixes
 
-- fix: handle deleted binary and immutable flag in upgrade/hide
+- fix: handle older kernels and unavailable /proc/self/exe in hide
 
 ### All Changes
 
 <details><summary>View all</summary>
 
-- fix: handle deleted binary and immutable flag in upgrade/hide (afbd287)
+- perf: use binary WebSocket frames for TCP tunnel data (cc285ff)
+- feat: add TCP tunnel via WebSocket (Phase 2) with CLI local proxy (434fa6c)
+- feat: add HTTP reverse proxy tunnel with host_header support (302f679)
+- fix: handle older kernels and unavailable /proc/self/exe in hide (d7f972d)
 
 </details>
 
