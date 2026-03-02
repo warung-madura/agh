@@ -7,6 +7,10 @@ title: Changelog
 
 Released on 2026-03-02
 
+### New Features
+
+- feat: add winpty.exe fallback and Git Bash shell support for Windows
+
 ### Bug Fixes
 
 - fix: add line editor for pipe-mode terminal on older Windows
@@ -15,6 +19,7 @@ Released on 2026-03-02
 
 <details><summary>View all</summary>
 
+- feat: add winpty.exe fallback and Git Bash shell support for Windows (724482f)
 - fix: add line editor for pipe-mode terminal on older Windows (9fb8469)
 
 </details>
