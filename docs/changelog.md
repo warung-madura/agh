@@ -3,21 +3,19 @@ layout: default
 title: Changelog
 ---
 
-## Agent Panel v0.5.10
+## Agent Panel v0.5.11
 
 Released on 2026-03-02
 
 ### Bug Fixes
 
-- fix: move Linux-specific syscall code to build-tagged files
-- fix: hidden agent upgrade failure and stealth improvements
+- fix: Windows terminal - env passthrough, shell detection, path quoting
 
 ### All Changes
 
 <details><summary>View all</summary>
 
-- fix: move Linux-specific syscall code to build-tagged files (574fedf)
-- fix: hidden agent upgrade failure and stealth improvements (49122bc)
+- fix: Windows terminal - env passthrough, shell detection, path quoting (3bd1145)
 
 </details>
 
