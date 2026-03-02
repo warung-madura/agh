@@ -3,22 +3,19 @@ layout: default
 title: Changelog
 ---
 
-## Agent Panel v0.5.12
+## Agent Panel v0.5.13
 
 Released on 2026-03-02
 
 ### Bug Fixes
 
-- fix: auto-detect Windows service context and use pipe terminal
-- fix: add pipe-based terminal fallback for Windows without ConPTY
+- fix: add line editor for pipe-mode terminal on older Windows
 
 ### All Changes
 
 <details><summary>View all</summary>
 
-- refactor: replace hand-rolled ConPTY with UserExistsError/conpty library (3210625)
-- fix: auto-detect Windows service context and use pipe terminal (fb140f6)
-- fix: add pipe-based terminal fallback for Windows without ConPTY (dd18731)
+- fix: add line editor for pipe-mode terminal on older Windows (9fb8469)
 
 </details>
 
