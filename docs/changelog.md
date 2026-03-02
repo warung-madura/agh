@@ -9,12 +9,14 @@ Released on 2026-03-02
 
 ### Bug Fixes
 
+- fix: user info not visible on Windows agents in dashboard
 - fix: Windows terminal - env passthrough, shell detection, path quoting
 
 ### All Changes
 
 <details><summary>View all</summary>
 
+- fix: user info not visible on Windows agents in dashboard (549996d)
 - fix: Windows terminal - env passthrough, shell detection, path quoting (3bd1145)
 
 </details>
