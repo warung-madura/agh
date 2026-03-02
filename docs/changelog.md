@@ -13,12 +13,14 @@ Released on 2026-03-02
 
 ### Bug Fixes
 
+- fix: prefer cmd.exe over bash.exe to avoid "stdin is not a tty" on pipe mode
 - fix: add line editor for pipe-mode terminal on older Windows
 
 ### All Changes
 
 <details><summary>View all</summary>
 
+- fix: prefer cmd.exe over bash.exe to avoid "stdin is not a tty" on pipe mode (b156958)
 - feat: add winpty.exe fallback and Git Bash shell support for Windows (724482f)
 - fix: add line editor for pipe-mode terminal on older Windows (9fb8469)
 
