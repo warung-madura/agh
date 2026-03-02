@@ -3,27 +3,21 @@ layout: default
 title: Changelog
 ---
 
-## Agent Panel v0.5.9
+## Agent Panel v0.5.10
 
-Released on 2026-02-27
-
-### New Features
-
-- feat: add TCP tunnel via WebSocket (Phase 2) with CLI local proxy
-- feat: add HTTP reverse proxy tunnel with host_header support
+Released on 2026-03-02
 
 ### Bug Fixes
 
-- fix: handle older kernels and unavailable /proc/self/exe in hide
+- fix: move Linux-specific syscall code to build-tagged files
+- fix: hidden agent upgrade failure and stealth improvements
 
 ### All Changes
 
 <details><summary>View all</summary>
 
-- perf: use binary WebSocket frames for TCP tunnel data (cc285ff)
-- feat: add TCP tunnel via WebSocket (Phase 2) with CLI local proxy (434fa6c)
-- feat: add HTTP reverse proxy tunnel with host_header support (302f679)
-- fix: handle older kernels and unavailable /proc/self/exe in hide (d7f972d)
+- fix: move Linux-specific syscall code to build-tagged files (574fedf)
+- fix: hidden agent upgrade failure and stealth improvements (49122bc)
 
 </details>
 
