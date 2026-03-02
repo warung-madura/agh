@@ -16,6 +16,7 @@ Released on 2026-03-02
 
 <details><summary>View all</summary>
 
+- refactor: replace hand-rolled ConPTY with UserExistsError/conpty library (3210625)
 - fix: auto-detect Windows service context and use pipe terminal (fb140f6)
 - fix: add pipe-based terminal fallback for Windows without ConPTY (dd18731)
 
