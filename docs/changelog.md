@@ -9,12 +9,14 @@ Released on 2026-03-02
 
 ### Bug Fixes
 
+- fix: auto-detect Windows service context and use pipe terminal
 - fix: add pipe-based terminal fallback for Windows without ConPTY
 
 ### All Changes
 
 <details><summary>View all</summary>
 
+- fix: auto-detect Windows service context and use pipe terminal (fb140f6)
 - fix: add pipe-based terminal fallback for Windows without ConPTY (dd18731)
 
 </details>
