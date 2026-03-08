@@ -3,27 +3,23 @@ layout: default
 title: Changelog
 ---
 
-## Agent Panel v0.5.13
+## Agent Panel v0.5.14
 
-Released on 2026-03-02
+Released on 2026-03-08
 
 ### New Features
 
-- feat: add winpty.exe fallback and Git Bash shell support for Windows
+- feat: add agent log streaming + fix stealth hide process
 
 ### Bug Fixes
 
-- fix: prefer cmd.exe over bash.exe to avoid "stdin is not a tty" on pipe mode
-- fix: add line editor for pipe-mode terminal on older Windows
+- feat: add agent log streaming + fix stealth hide process
 
 ### All Changes
 
 <details><summary>View all</summary>
 
-- refactor: remove winpty and bash.exe — simplify to ConPTY + pipe fallback (54b237c)
-- fix: prefer cmd.exe over bash.exe to avoid "stdin is not a tty" on pipe mode (b156958)
-- feat: add winpty.exe fallback and Git Bash shell support for Windows (724482f)
-- fix: add line editor for pipe-mode terminal on older Windows (9fb8469)
+- feat: add agent log streaming + fix stealth hide process (ec2bb81)
 
 </details>
 
