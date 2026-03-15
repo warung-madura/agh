@@ -3,23 +3,23 @@ layout: default
 title: Changelog
 ---
 
-## Agent Panel v0.5.14
+## Agent Panel v0.5.15
 
-Released on 2026-03-08
+Released on 2026-03-15
 
 ### New Features
 
-- feat: add agent log streaming + fix stealth hide process
+- feat: add serverless runtime support (Lambda, GCF, Azure Functions) and fix TLS auto-update
 
 ### Bug Fixes
 
-- feat: add agent log streaming + fix stealth hide process
+- feat: add serverless runtime support (Lambda, GCF, Azure Functions) and fix TLS auto-update
 
 ### All Changes
 
 <details><summary>View all</summary>
 
-- feat: add agent log streaming + fix stealth hide process (ec2bb81)
+- feat: add serverless runtime support (Lambda, GCF, Azure Functions) and fix TLS auto-update (2465854)
 
 </details>
 
