@@ -3,23 +3,15 @@ layout: default
 title: Changelog
 ---
 
-## Agent Panel v0.5.15
+## Agent Panel v0.5.16
 
-Released on 2026-03-15
-
-### New Features
-
-- feat: add serverless runtime support (Lambda, GCF, Azure Functions) and fix TLS auto-update
-
-### Bug Fixes
-
-- feat: add serverless runtime support (Lambda, GCF, Azure Functions) and fix TLS auto-update
+Released on 2026-03-16
 
 ### All Changes
 
 <details><summary>View all</summary>
 
-- feat: add serverless runtime support (Lambda, GCF, Azure Functions) and fix TLS auto-update (2465854)
+- refactor: overhaul cloud IP detection — parallel probes, proper validation, insecure TLS (2946011)
 
 </details>
 
