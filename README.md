@@ -1,6 +1,6 @@
 # Agent Panel
 
-Latest: [v0.5.16](https://github.com/warung-madura/agh/releases/tag/v0.5.16)
+Latest: [v0.5.17](https://github.com/warung-madura/agh/releases/tag/v0.5.17)
 
 ## Install Agent (Linux / macOS)
 

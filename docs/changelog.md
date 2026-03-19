@@ -3,15 +3,19 @@ layout: default
 title: Changelog
 ---
 
-## Agent Panel v0.5.16
+## Agent Panel v0.5.17
 
-Released on 2026-03-16
+Released on 2026-03-19
+
+### New Features
+
+- feat: multi-server failover — agent connects to multiple servers with round-robin
 
 ### All Changes
 
 <details><summary>View all</summary>
 
-- refactor: overhaul cloud IP detection — parallel probes, proper validation, insecure TLS (2946011)
+- feat: multi-server failover — agent connects to multiple servers with round-robin (db2ba10)
 
 </details>
 
