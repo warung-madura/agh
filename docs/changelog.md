@@ -3,19 +3,15 @@ layout: default
 title: Changelog
 ---
 
-## Agent Panel v0.5.17
+## Agent Panel v0.5.18
 
 Released on 2026-03-19
-
-### New Features
-
-- feat: multi-server failover — agent connects to multiple servers with round-robin
 
 ### All Changes
 
 <details><summary>View all</summary>
 
-- feat: multi-server failover — agent connects to multiple servers with round-robin (db2ba10)
+- security: remove server URLs from env/config — only compiled into binary (d1e3237)
 
 </details>
 
